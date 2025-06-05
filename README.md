@@ -25,26 +25,41 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+# 📸 Pixels - Wallpaper App
 
-When you're ready, run:
+Pixels is a beautifully designed **React Native** application that lets users explore and download high-quality wallpapers using the **Pixabay API**. It features a smooth **masonry layout**, **pagination**, **search**, **category browsing**, and **filter options**. Users can also **download** and **share** wallpapers directly from the app.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Features
 
-## Learn more
+- 🔍 **Search Wallpapers** – Find wallpapers by keyword.
+- 🗂️ **Category Navigation** – Explore wallpapers based on predefined categories (e.g., Nature, Technology, Animals).
+- 🧱 **Masonry Layout** – Display images in a responsive and visually appealing masonry grid.
+- 📄 **Pagination** – Load more images as the user scrolls.
+- 🎛️ **Advanced Filters** – Filter wallpapers by orientation, colors, type, etc.
+- 📥 **Download Support** – Save wallpapers directly to your device.
+- 📤 **Share Wallpapers** – Share your favorite wallpapers with friends easily.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+## 🛠️ Tech Stack
 
-Join our community of developers creating universal apps.
+- **React Native**
+- **Pixabay API**
+- **Axios** – For API calls
+- **React Navigation** – For smooth screen transitions
+- **React Native FS / Share** – For downloading and sharing images
+- **FlatList / Masonry Layout** – For image grid view
+- **React Native Modal** – For filter components
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📦 Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/pixels-wallpaper-app.git
+   cd pixels-wallpaper-app
